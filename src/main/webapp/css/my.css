@@ -1,0 +1,40 @@
+table {background: coral}
+
+th, td {border: 1px solid black;
+    padding: 3px
+}
+
+td {text-align: left}
+th {text-align: center}
+
+.field {
+    padding: 2px 2px 2px 2px;
+    margin: 2px 2px 2px 2px
+}
+
+.field label, .field input, .field select {
+    display: block;
+    float: left;
+    height: 25px
+}
+
+.field label {
+    width: 75px
+}
+
+.field input, .field select {
+    width: 200px
+}
+
+.pagination {
+    display: inline-block
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd
+}
